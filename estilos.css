@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: Arial;
+    margin: 0;
+    background: #e6e6e6;
+
+}
+
+/* HEADER CON IMAGEN */
+
+header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/Festival1.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+    padding: 80px;
+
+}
+
+header h1 {
+
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px black;
+
+}
+
+.subtitulo {
+
+    font-style: italic;
+
+}
+
+/* MENU */
+
+nav {
+
+    background: #111;
+    text-align: center;
+    padding: 12px;
+
+}
+
+nav a {
+
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+nav a:hover {
+
+    color: #00ffcc;
+
+}
+
+/* CONTENIDO */
+
+main {
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.caja {
+
+    background: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.caja:hover {
+
+    transform: scale(1.03);
+    box-shadow: 0px 5px 15px rgba(131, 6, 241, 0.2);
+
+}
+
+.recuadro {
+
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    border-left: 5px solid rgb(255, 255, 255);
+    transition: 0.3s;
+
+}
+
+.recuadro:hover {
+
+    transform: scale(1.03);
+
+}
+
+/* GALERIA */
+
+.galeria {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item-galeria {
+
+    text-align: center;
+
+}
+
+.item-galeria p {
+
+    margin-top: 8px;
+    font-weight: bold;
+
+}
+
+.galeria img:hover {
+
+    transform: scale(1.01);
+
+}
+
+/* VIDEO */
+
+.video {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+/* FOOTER */
+
+footer {
+
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+p {
+
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 10px;
+
+}
+
+.subtitulo {
+    text-align: center;
+}
+.seccion-contacto {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-contacto h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.opcion {
+    display: block;
+    margin-top: 5px;
+}
+
+.btn-enviar {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-enviar:hover {
+    background: #005fa3;
+}
+
+.tabla-festivales {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+/* efecto hover como los otros recuadros */
+.tabla-festivales:hover {
+    transform: scale(1.01);
+}
+
+.tabla-festivales th,
+.tabla-festivales td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabla-festivales th {
+    background: #00c853;
+    color: white;
+}
+
+.tabla-festivales tr:hover {
+    background: #f5f5f5;
+}
+
+.tabla-festivales tr {
+    transition: 0.2s;
+}
+
+.tabla-festivales tr:hover {
+    background: #e8f5e9;
+}
+
+.video iframe{
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
